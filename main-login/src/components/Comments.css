@@ -1,0 +1,74 @@
+.comment-box {
+  box-sizing: content-box;
+  width: 50%; /* Ajusta el porcentaje según tus necesidades */
+  margin: 0 auto; /* Agrega margen automático para centrar horizontalmente */
+  border-radius: 40px;
+  padding: 20px;
+}
+
+.comment-box h4 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.comment-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.comment-container {
+    border-radius: 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px; /* Espacio adicional alrededor del contenido del comentario */
+}
+
+.comment-container .userprofile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.comment-container.right .userprofile-img {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.comment-container.right {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.comment-input {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 40px;
+  padding: 8px;
+  margin-top: 10px;
+}
+
+.comment-btn {
+  border: none;
+  background-color: rgb(166, 183, 131);
+  color: white;
+  border: none;
+  border-radius: 40px;
+  padding: 8px 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  animation: btnAnimation 1s ease-in-out infinite;
+}
+
+.comment-btn:hover {
+  background-color: #3b5998;
+}
+
+.comment-container.blue {
+  background-color: rgb(97, 185, 159); /* Color de fondo para comentarios de color azul */
+}
+
+.comment-container.white {
+  background-color: rgb(120, 145, 118); /* Color de fondo para comentarios de color blanco */
+}

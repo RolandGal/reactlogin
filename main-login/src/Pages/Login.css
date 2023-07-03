@@ -1,0 +1,45 @@
+.login-section a:hover {
+    color: rgb(166, 183, 131); 
+  }
+  .inibtn{
+    border: none;
+    background-color: rgb(166, 183, 131);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    animation: btnAnimation 1s ease-in-out infinite;
+  }
+
+  @keyframes btnAnimation {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 rgba(166, 183, 131, 0.7);
+    }
+    50% {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px rgba(166, 183, 131, 0.7);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 0 0 rgba(166, 183, 131, 0.7);
+    }
+  }
+.login-section {
+    width:30%;
+}
+
+@media (max-width: 768px) {
+  *{
+    align-items: center;
+  }
+  .inibtn{
+    width:100px;
+  }
+  #password{
+    width: 120px;
+  }
+  #username{
+    width: 120px;
+  }
+}

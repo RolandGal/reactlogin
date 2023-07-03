@@ -1,0 +1,44 @@
+.selecarc{
+    border-radius: 20px;
+    background-color: rgb(166, 183, 131);
+}
+.form2{
+    
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#user-description{
+  width: 25%;
+  height: 10%;
+}
+
+.actperfil{
+    border: none;
+    background-color: rgb(166, 183, 131);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    animation: btnAnimation 1s ease-in-out infinite;
+    width: 25%;
+}
+
+  
+  @keyframes btnAnimation {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 rgba(166, 183, 131, 0.7);
+    }
+    50% {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px rgba(166, 183, 131, 0.7);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 0 0 rgba(166, 183, 131, 0.7);
+    }
+  }

@@ -1,0 +1,13 @@
+.login-section a:hover {
+    color: rgb(166, 183, 131); 
+  }
+
+  .register{
+    border: none;
+    background-color: rgb(166, 183, 131);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  
+  }

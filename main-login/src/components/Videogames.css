@@ -1,0 +1,91 @@
+/* form {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+} */
+
+main {
+  width: 100%;
+}
+
+.image-container {
+  position: relative;
+  max-width: 272px;
+  max-height: 152px;
+  overflow: hidden;
+}
+
+.image-container img {
+
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.image-container svg {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.image-container button {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 850px;
+  text-align: center;
+}
+.videogames-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.videogames-list li {
+  text-align: center;
+}
+
+
+.videogames-element {
+  text-align: center;
+}
+
+.videogames-element h3 {
+  height: 90px;
+}
+.image-container {
+  position: relative;
+  max-width: 572px;
+  max-height: 452px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.slider-container {
+  max-width: 75%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-image {
+  object-fit: contain;
+  max-width: 100%;
+  height: 100%;
+}
+
+.slider-image-container {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  min-height: 35vh;
+}
